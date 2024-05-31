@@ -3,7 +3,7 @@
 ## Comparison with Existing SMT Solvers
 | Solver | Path | Data | Usage | Sat | Unsat | Solved |
 | --- | --- | --- | --- | --- | --- | --- |
-| NLSAT | [NLSAT](solvers/NLSAT) | [NLSAT_result](data/NLSAT.csv) | ./NLSAT <*.cnf> | 5541 | 5191 | 10732|
+| NLSAT | [NLSAT](solvers/NLSAT) | [NLSAT_result](data/NLSAT.csv) | ./NLSAT <*.smt2> | 5541 | 5191 | 10732|
 | Z3 | [z3](solvers/z3) | [z3_result](data/z3.csv) | ./z3 <*.smt2> | 5569 | 5379 | 10948|
 | CVC5 | [cvc5](solvers/cvc5) | [cvc5_result](data/cvc5.csv) | ./cvc5 <*.smt2> | 5475 | 5809 | 11284|
 | Yices2 | [yices2](solvers/yices2) | [yices2_result](data/yices2.csv) | ./yices2 <*.smt2> | 5372 | 5612 | 10984|
