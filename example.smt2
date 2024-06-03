@@ -7,3 +7,4 @@
 (assert (or (< (+ (* y y) (* (- 8) x) 1) 0) (< (+ (* y y) (* (- 16) x) 1) 0) ))
 
 (check-sat)
+(exit)
