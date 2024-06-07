@@ -1,4 +1,4 @@
-# Data and Binary files for "Improving NLSAT for Satisfiability Modulo Nonlinear Real Arithmetic Theory"
+# Data and Binary files for "Improving NLSAT for Nonlinear Real Arithmetic Theory with Clause-Level Information"
 
 Benchmark: QF_NRA of SMT-LIB (https://zenodo.org/records/11061097)
 
