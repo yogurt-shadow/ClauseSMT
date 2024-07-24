@@ -9,6 +9,8 @@ Benchmark: QF_NRA of SMT-LIB (https://zenodo.org/records/11061097)
 | Z3 | [z3](solvers/z3) | [z3_result](data/z3.csv) | ./z3 <*.smt2> | 5569 | 5379 | 10948|
 | CVC5 | [cvc5](solvers/cvc5) | [cvc5_result](data/cvc5.csv) | ./cvc5 <*.smt2> | 5475 | 5809 | 11284|
 | Yices2 | [yices2](solvers/yices2) | [yices2_result](data/yices2.csv) | ./yices2 <*.smt2> | 5372 | 5612 | 10984|
+| dReal (delta=0.001) | [dReal](solvers/dReal) | [dReal_result](data/dReal.csv) | ./dReal --precision 0.001 <*.smt2> | 4811 | 4294 | 9105|
+| MathSAT | [mathsat](solvers/mathsat) | [mathsat_result](data/mathsat.csv) | ./mathsat <*.smt2> | 2772 | 4583 | 7355|
 | clauseSMT (Ours) | [clauseSMT](solvers/clauseSMT) | [clauseSMT_result](data/clauseSMT.csv) | ./clauseSMT <*.smt2> | 5608 | 5397 | 11005 |
 
 ## Effect of Proposed Techniques
